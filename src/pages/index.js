@@ -1,4 +1,6 @@
 import React from "react"
+import HeroSection from "../components/HeroSection"
+import Image from "../components/image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -6,9 +8,8 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <HeroSection />
+    <Image />
   </Layout>
 )
 
